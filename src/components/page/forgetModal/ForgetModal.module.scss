@@ -1,0 +1,17 @@
+.errorField {
+  position: absolute;
+  color: red;
+  margin-right: 10px;
+}
+.errorFieldNoPosition {
+  color: red;
+  margin-right: 10px;
+}
+.requiredField {
+  color: red;
+  margin-left: 1px;
+}
+.dFlex {
+  display: flex;
+  align-items: center;
+}

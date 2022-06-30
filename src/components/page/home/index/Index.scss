@@ -1,0 +1,55 @@
+.tableNotice {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  .ant-table-body {
+    tr {
+      td {
+        cursor: default !important;
+      }
+    }
+  }
+}
+
+.modalNotice {
+  .colorBlue {
+    color: #2892ff;
+    cursor: pointer;
+  }
+  .ant-modal-header {
+    background-color: #104382;
+    .ant-modal-title {
+      h2 {
+        margin: 0;
+        color: white;
+      }
+    }
+  }
+  .ant-modal-body {
+    .ant-row {
+      .ant-col {
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .ant-modal-close-x {
+    color: white;
+  }
+
+  .formGroup {
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+
+    .formGroupText {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .dFlex {
+    display: flex;
+    margin: 0 0 15px 0;
+  }
+}
